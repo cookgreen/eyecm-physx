@@ -14,6 +14,7 @@
     <ProjectGuid>{1CB6003C-DF6B-4CCC-A5D9-CD9E1012E79B}</ProjectGuid>
     <RootNamespace>eyecm.PhysX</RootNamespace>
     <Keyword>ManagedCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -21,11 +22,13 @@
     <CharacterSet>Unicode</CharacterSet>
     <CLRSupport>true</CLRSupport>
     <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <CLRSupport>true</CLRSupport>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -54,8 +57,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)Customization\;$(ProjectDir)Utility\;$(ProjectDir)Scene\;$(ProjectDir)Physics\;$(ProjectDir)Material\;$(ProjectDir)Shape\;$(ProjectDir)Actor\;$(ProjectDir)Joint\;$(ProjectDir)Mesh\;$(ProjectDir)Cloth\;$(ProjectDir)Fluid\;$(ProjectDir)ForceField\;$(ProjectDir)SoftBody\;$(ProjectDir)Effector\;$(ProjectDir)Character\;$(ProjectDir)..\..\..\PhysX\PhysXLoader\include;$(ProjectDir)..\..\..\PhysX\Foundation\include;$(ProjectDir)..\..\..\PhysX\Physics\include;$(ProjectDir)..\..\..\PhysX\Physics\include\cloth;$(ProjectDir)..\..\..\PhysX\Physics\include\fluids;$(ProjectDir)..\..\..\PhysX\Physics\include\softbody;$(ProjectDir)..\..\..\PhysX\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalUsingDirectories>$(SolutionDir)bin\$(Configuration)\;$(ProjectDir)..\..\..\Mogre\Main\lib\Release;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)Customization\;$(ProjectDir)Utility\;$(ProjectDir)Scene\;$(ProjectDir)Physics\;$(ProjectDir)Material\;$(ProjectDir)Shape\;$(ProjectDir)Actor\;$(ProjectDir)Joint\;$(ProjectDir)Mesh\;$(ProjectDir)Cloth\;$(ProjectDir)Fluid\;$(ProjectDir)ForceField\;$(ProjectDir)SoftBody\;$(ProjectDir)Effector\;$(ProjectDir)Character\;$(PHYSX_DIR)\SDKs\PhysXLoader\include;$(PHYSX_DIR)\SDKs\Foundation\include;$(PHYSX_DIR)\SDKs\Physics\include;$(PHYSX_DIR)\SDKs\Physics\include\cloth;$(PHYSX_DIR)\SDKs\Physics\include\fluids;$(PHYSX_DIR)\SDKs\Physics\include\softbody;$(PHYSX_DIR)\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>$(SolutionDir)bin\$(Configuration)\;$(ProjectDir)..\..\Lib\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
       <PreprocessorDefinitions>UserCustomization="custom.mogre.h";WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -67,7 +70,7 @@
     <Link>
       <AdditionalDependencies>
       </AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\PhysX\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PHYSX_DIR)\SDKs\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AssemblyDebug>true</AssemblyDebug>
     </Link>

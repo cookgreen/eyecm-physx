@@ -1,136 +1,73 @@
-﻿生成启动时间为 2022/12/7 20:30:30。
-     1>项目“C:\Repos\EngineDeps\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NxuStream.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“obj\Debug\NxuStream.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-       ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Repos\EngineDeps\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\..\..\..\..\..\PhysX\PhysXLoader\include" /I"C:\Repos\EngineDeps\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\..\..\..\..\..\PhysX\Foundation\include" /I"C:\Repos\EngineDeps\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\..\..\..\..\..\PhysX\Physics\include" /I"C:\Repos\EngineDeps\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\..\..\..\..\..\PhysX\Physics\include\cloth" /I"C:\Repos\EngineDeps\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\..\..\..\..\..\PhysX\Physics\include\fluids" /I"C:\Repos\EngineDeps\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\..\..\..\..\..\PhysX\Physics\include\softbody" /I"C:\Repos\EngineDeps\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\..\..\..\..\..\PhysX\Cooking\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm /EHa /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt NXU_Asc2Bin.cpp NXU_ColladaExport.cpp NXU_ColladaImport.cpp NXU_cooking.cpp NXU_customcopy.cpp NXU_File.cpp NXU_Geometry.cpp NXU_GraphicsMesh.cpp NXU_helper.cpp NXU_hull.cpp NXU_PhysicsExport.cpp NXU_PhysicsInstantiator.cpp NXU_ScaledCopy.cpp NXU_schema.cpp NXU_SchemaStream.cpp NXU_Streaming.cpp NXU_string.cpp NXU_tinystr.cpp NXU_tinyxml.cpp NXU_tinyxmlerror.cpp NXU_tinyxmlparser.cpp
-         NXU_tinyxmlparser.cpp
-         NXU_tinyxmlerror.cpp
-         NXU_tinyxml.cpp
-         NXU_tinystr.cpp
-         NXU_string.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_helper.h(6): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
-         NXU_Streaming.cpp
-     1>NXU_Streaming.cpp(2): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
-         NXU_SchemaStream.cpp
-     1>NXU_SchemaStream.cpp(11): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
-         NXU_schema.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_SchemaTypes.h(5): fatal error C1083: 无法打开包括文件:“NxSimpleTypes.h”: No such file or directory
-         NXU_ScaledCopy.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_helper.h(6): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
-         NXU_PhysicsInstantiator.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_SchemaTypes.h(5): fatal error C1083: 无法打开包括文件:“NxSimpleTypes.h”: No such file or directory
-         NXU_PhysicsExport.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_SchemaTypes.h(5): fatal error C1083: 无法打开包括文件:“NxSimpleTypes.h”: No such file or directory
-         NXU_hull.cpp
-         NXU_helper.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_helper.h(6): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
-         NXU_GraphicsMesh.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(215): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(258): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(263): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(277): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(401): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(415): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(432): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(647): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(665): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(698): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(712): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(736): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_GraphicsMesh.h(757): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(102): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(103): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(104): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(105): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(106): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(107): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(108): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(109): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(110): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(111): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(112): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(113): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(122): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(123): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(124): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(125): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(126): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(127): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(128): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(129): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(130): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(131): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(132): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(133): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(217): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
-     1>NXU_GraphicsMesh.cpp(327): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(333): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(390): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(396): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(439): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
-     1>NXU_GraphicsMesh.cpp(486): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
-         NXU_Geometry.cpp
-     1>NXU_Geometry.cpp(8): fatal error C1083: 无法打开包括文件:“NxMat34.h”: No such file or directory
-         NXU_File.cpp
-         NXU_customcopy.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_SchemaTypes.h(5): fatal error C1083: 无法打开包括文件:“NxSimpleTypes.h”: No such file or directory
-         NXU_cooking.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_cooking.h(5): fatal error C1083: 无法打开包括文件:“NxCooking.h”: No such file or directory
-         NXU_ColladaImport.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_helper.h(6): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
-         NXU_ColladaExport.cpp
-     1>c:\repos\enginedeps\eyecm-physx\source\eyecm.physx\physics\nxustream\NXU_SchemaTypes.h(5): fatal error C1083: 无法打开包括文件:“NxSimpleTypes.h”: No such file or directory
-         正在生成代码...
-         正在编译...
-         NXU_Asc2Bin.cpp
-         正在生成代码...
-     1>已完成生成项目“C:\Repos\EngineDeps\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NxuStream.vcxproj”(build 个目标)的操作 - 失败。
-
-生成失败。
-
-已用时间 00:00:01.61
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  NXU_tinyxmlparser.cpp
+  NXU_tinyxmlerror.cpp
+  NXU_tinyxml.cpp
+  NXU_tinystr.cpp
+  NXU_string.cpp
+  NXU_Streaming.cpp
+  NXU_SchemaStream.cpp
+  NXU_schema.cpp
+  NXU_ScaledCopy.cpp
+  NXU_PhysicsInstantiator.cpp
+  NXU_PhysicsExport.cpp
+  NXU_hull.cpp
+  NXU_helper.cpp
+  NXU_GraphicsMesh.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(215,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(258,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(263,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(277,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(401,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(415,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(432,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(647,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(665,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(698,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(712,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(736,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.h(757,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(102,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(103,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(104,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(105,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(106,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(107,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(108,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(109,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(110,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(111,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(112,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(113,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(122,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(123,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(124,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(125,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(126,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(127,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(128,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(129,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(130,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(131,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(132,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(133,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(217,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(327,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(333,18): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(390,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(396,18): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(439,18): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_GraphicsMesh.cpp(486,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  NXU_Geometry.cpp
+  NXU_File.cpp
+  NXU_customcopy.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_customcopy.cpp(1317,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  NXU_cooking.cpp
+  NXU_ColladaImport.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_ColladaImport.cpp(3261,7): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Physics\NxuStream\NXU_ColladaImport.cpp(3888,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  NXU_ColladaExport.cpp
+  正在生成代码...
+  正在编译...
+  NXU_Asc2Bin.cpp
+  正在生成代码...
+  NxuStream.vcxproj -> C:\Repos\eyecm-physx\bin\Debug\NxuStream\NxuStream.lib
