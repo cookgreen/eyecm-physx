@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>eyecm.PhysX.Demos</RootNamespace>
     <AssemblyName>eyecm.PhysX.Demos</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <OutputPath>$(SolutionDir)bin\$(Configuration)\$(AssemblyName)</OutputPath>
     <StartupObject>

@@ -1,1 +1,15 @@
-﻿  NxCharacter.vcxproj -> C:\Repos\eyecm-physx\bin\Debug\NxCharacter\NxCharacter.lib
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  SweptVolume.cpp
+  SweptCapsule.cpp
+  SweptBox.cpp
+  NxCharacter.cpp
+  Controller.cpp
+  CharacterControllerManager.cpp
+  CharacterControllerCallbacks.cpp
+  CharacterController.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\src\CharacterController.cpp(1370,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CCTDebugRenderer.cpp
+  CapsuleController.cpp
+  BoxController.cpp
+  正在生成代码...
+  NxCharacter.vcxproj -> C:\Repos\eyecm-physx\bin\Debug\NxCharacter\NxCharacter.lib
