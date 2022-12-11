@@ -9,26 +9,63 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NxuStream", "Source\eyecm.P
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NxCharacter", "Source\eyecm.PhysX\Character\NxCharacter\NxCharacter.vcxproj", "{F4FF8039-FCE5-4771-86CE-68A9D7E95C97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eyecm.PhysX.Demos", "Source\eyecm.PhysX.Demos\eyecm.PhysX.Demos.csproj", "{A863F454-108A-4076-A95E-34EC8849AC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eyecm.PhysX.Demos.Math", "Source\eyecm.PhysX.Demos\eyecm.PhysX.Demos.Math\eyecm.PhysX.Demos.Math.csproj", "{E3C8FE7A-F459-4065-BAFF-CAA51699F31F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug demos|Win32 = Debug demos|Win32
 		Debug|Win32 = Debug|Win32
+		Release demos|Win32 = Release demos|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB6003C-DF6B-4CCC-A5D9-CD9E1012E79B}.Debug demos|Win32.ActiveCfg = Debug|Win32
+		{1CB6003C-DF6B-4CCC-A5D9-CD9E1012E79B}.Debug demos|Win32.Build.0 = Debug|Win32
 		{1CB6003C-DF6B-4CCC-A5D9-CD9E1012E79B}.Debug|Win32.ActiveCfg = Debug|Win32
 		{1CB6003C-DF6B-4CCC-A5D9-CD9E1012E79B}.Debug|Win32.Build.0 = Debug|Win32
+		{1CB6003C-DF6B-4CCC-A5D9-CD9E1012E79B}.Release demos|Win32.ActiveCfg = Release|Win32
+		{1CB6003C-DF6B-4CCC-A5D9-CD9E1012E79B}.Release demos|Win32.Build.0 = Release|Win32
 		{1CB6003C-DF6B-4CCC-A5D9-CD9E1012E79B}.Release|Win32.ActiveCfg = Release|Win32
 		{1CB6003C-DF6B-4CCC-A5D9-CD9E1012E79B}.Release|Win32.Build.0 = Release|Win32
+		{6F6A4809-E9C6-4E38-B66E-9791B7DDA471}.Debug demos|Win32.ActiveCfg = Debug|Win32
+		{6F6A4809-E9C6-4E38-B66E-9791B7DDA471}.Debug demos|Win32.Build.0 = Debug|Win32
 		{6F6A4809-E9C6-4E38-B66E-9791B7DDA471}.Debug|Win32.ActiveCfg = Debug|Win32
 		{6F6A4809-E9C6-4E38-B66E-9791B7DDA471}.Debug|Win32.Build.0 = Debug|Win32
+		{6F6A4809-E9C6-4E38-B66E-9791B7DDA471}.Release demos|Win32.ActiveCfg = Release|Win32
+		{6F6A4809-E9C6-4E38-B66E-9791B7DDA471}.Release demos|Win32.Build.0 = Release|Win32
 		{6F6A4809-E9C6-4E38-B66E-9791B7DDA471}.Release|Win32.ActiveCfg = Release|Win32
 		{6F6A4809-E9C6-4E38-B66E-9791B7DDA471}.Release|Win32.Build.0 = Release|Win32
+		{F4FF8039-FCE5-4771-86CE-68A9D7E95C97}.Debug demos|Win32.ActiveCfg = Debug|Win32
+		{F4FF8039-FCE5-4771-86CE-68A9D7E95C97}.Debug demos|Win32.Build.0 = Debug|Win32
 		{F4FF8039-FCE5-4771-86CE-68A9D7E95C97}.Debug|Win32.ActiveCfg = Debug|Win32
 		{F4FF8039-FCE5-4771-86CE-68A9D7E95C97}.Debug|Win32.Build.0 = Debug|Win32
+		{F4FF8039-FCE5-4771-86CE-68A9D7E95C97}.Release demos|Win32.ActiveCfg = Release|Win32
+		{F4FF8039-FCE5-4771-86CE-68A9D7E95C97}.Release demos|Win32.Build.0 = Release|Win32
 		{F4FF8039-FCE5-4771-86CE-68A9D7E95C97}.Release|Win32.ActiveCfg = Release|Win32
 		{F4FF8039-FCE5-4771-86CE-68A9D7E95C97}.Release|Win32.Build.0 = Release|Win32
+		{A863F454-108A-4076-A95E-34EC8849AC18}.Debug demos|Win32.ActiveCfg = Debug demos|x86
+		{A863F454-108A-4076-A95E-34EC8849AC18}.Debug demos|Win32.Build.0 = Debug demos|x86
+		{A863F454-108A-4076-A95E-34EC8849AC18}.Debug|Win32.ActiveCfg = Debug demos|x86
+		{A863F454-108A-4076-A95E-34EC8849AC18}.Debug|Win32.Build.0 = Debug demos|x86
+		{A863F454-108A-4076-A95E-34EC8849AC18}.Release demos|Win32.ActiveCfg = Release demos|x86
+		{A863F454-108A-4076-A95E-34EC8849AC18}.Release demos|Win32.Build.0 = Release demos|x86
+		{A863F454-108A-4076-A95E-34EC8849AC18}.Release|Win32.ActiveCfg = Release demos|x86
+		{A863F454-108A-4076-A95E-34EC8849AC18}.Release|Win32.Build.0 = Release demos|x86
+		{E3C8FE7A-F459-4065-BAFF-CAA51699F31F}.Debug demos|Win32.ActiveCfg = Debug demos|x86
+		{E3C8FE7A-F459-4065-BAFF-CAA51699F31F}.Debug demos|Win32.Build.0 = Debug demos|x86
+		{E3C8FE7A-F459-4065-BAFF-CAA51699F31F}.Debug|Win32.ActiveCfg = Debug demos|x86
+		{E3C8FE7A-F459-4065-BAFF-CAA51699F31F}.Debug|Win32.Build.0 = Debug demos|x86
+		{E3C8FE7A-F459-4065-BAFF-CAA51699F31F}.Release demos|Win32.ActiveCfg = Release demos|x86
+		{E3C8FE7A-F459-4065-BAFF-CAA51699F31F}.Release demos|Win32.Build.0 = Release demos|x86
+		{E3C8FE7A-F459-4065-BAFF-CAA51699F31F}.Release|Win32.ActiveCfg = Release demos|x86
+		{E3C8FE7A-F459-4065-BAFF-CAA51699F31F}.Release|Win32.Build.0 = Release demos|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FD500E4-8E46-4749-B5C3-E3E31D88B0D3}
 	EndGlobalSection
 EndGlobal

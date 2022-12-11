@@ -1,0 +1,6 @@
+C:\Repos\eyecm-physx\bin\Debug demos\eyecm.PhysX.Demos.Math\eyecm.PhysX.Demos.Math.dll
+C:\Repos\eyecm-physx\bin\Debug demos\eyecm.PhysX.Demos.Math\eyecm.PhysX.Demos.Math.pdb
+C:\Repos\eyecm-physx\Source\eyecm.PhysX.Demos\eyecm.PhysX.Demos.Math\obj\x86\Debug demos\eyecm.PhysX.Demos.Math.csproj.AssemblyReference.cache
+C:\Repos\eyecm-physx\Source\eyecm.PhysX.Demos\eyecm.PhysX.Demos.Math\obj\x86\Debug demos\eyecm.PhysX.Demos.Math.csproj.CoreCompileInputs.cache
+C:\Repos\eyecm-physx\Source\eyecm.PhysX.Demos\eyecm.PhysX.Demos.Math\obj\x86\Debug demos\eyecm.PhysX.Demos.Math.dll
+C:\Repos\eyecm-physx\Source\eyecm.PhysX.Demos\eyecm.PhysX.Demos.Math\obj\x86\Debug demos\eyecm.PhysX.Demos.Math.pdb

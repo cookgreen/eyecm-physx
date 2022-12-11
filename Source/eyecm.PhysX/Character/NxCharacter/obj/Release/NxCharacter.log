@@ -1,0 +1,22 @@
+﻿  BoxController.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\include\NxController.h(12,10): fatal  error C1083: 无法打开包括文件: “Nxp.h”: No such file or directory
+  CapsuleController.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\include\NxController.h(12,10): fatal  error C1083: 无法打开包括文件: “Nxp.h”: No such file or directory
+  CCTDebugRenderer.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\include\CCTDebugRenderer.h(11,10): fatal  error C1083: 无法打开包括文件: “NxDebugRenderable.h”: No such file or directory
+  CharacterController.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\include\CharacterController.h(13,10): fatal  error C1083: 无法打开包括文件: “NxBox.h”: No such file or directory
+  CharacterControllerCallbacks.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\src\CharacterControllerCallbacks.cpp(9,10): fatal  error C1083: 无法打开包括文件: “Nxp.h”: No such file or directory
+  CharacterControllerManager.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\include\NxControllerManager.h(13,10): fatal  error C1083: 无法打开包括文件: “Nxp.h”: No such file or directory
+  Controller.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\include\NxController.h(12,10): fatal  error C1083: 无法打开包括文件: “Nxp.h”: No such file or directory
+  NxCharacter.cpp
+  SweptBox.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\include\NxExtended.h(13,10): fatal  error C1083: 无法打开包括文件: “Nxf.h”: No such file or directory
+  SweptCapsule.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\include\NxExtended.h(13,10): fatal  error C1083: 无法打开包括文件: “Nxf.h”: No such file or directory
+  SweptVolume.cpp
+C:\Repos\eyecm-physx\Source\eyecm.PhysX\Character\NxCharacter\include\NxExtended.h(13,10): fatal  error C1083: 无法打开包括文件: “Nxf.h”: No such file or directory
+  正在生成代码...

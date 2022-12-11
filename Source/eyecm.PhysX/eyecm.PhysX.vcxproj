@@ -83,8 +83,8 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)Customization\;$(ProjectDir)Utility\;$(ProjectDir)Scene\;$(ProjectDir)Physics\;$(ProjectDir)Material\;$(ProjectDir)Shape\;$(ProjectDir)Actor\;$(ProjectDir)Joint\;$(ProjectDir)Mesh\;$(ProjectDir)Cloth\;$(ProjectDir)Fluid\;$(ProjectDir)ForceField\;$(ProjectDir)SoftBody\;$(ProjectDir)Effector\;$(ProjectDir)Character\;$(ProjectDir)..\..\..\PhysX\PhysXLoader\include;$(ProjectDir)..\..\..\PhysX\Foundation\include;$(ProjectDir)..\..\..\PhysX\Physics\include;$(ProjectDir)..\..\..\PhysX\Physics\include\cloth;$(ProjectDir)..\..\..\PhysX\Physics\include\fluids;$(ProjectDir)..\..\..\PhysX\Physics\include\softbody;$(ProjectDir)..\..\..\PhysX\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalUsingDirectories>$(SolutionDir)bin\$(Configuration)\;$(ProjectDir)..\..\..\Mogre\Main\lib\Release;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)Customization\;$(ProjectDir)Utility\;$(ProjectDir)Scene\;$(ProjectDir)Physics\;$(ProjectDir)Material\;$(ProjectDir)Shape\;$(ProjectDir)Actor\;$(ProjectDir)Joint\;$(ProjectDir)Mesh\;$(ProjectDir)Cloth\;$(ProjectDir)Fluid\;$(ProjectDir)ForceField\;$(ProjectDir)SoftBody\;$(ProjectDir)Effector\;$(ProjectDir)Character\;$(PHYSX_DIR)\SDKs\PhysXLoader\include;$(PHYSX_DIR)\SDKs\Foundation\include;$(PHYSX_DIR)\SDKs\Physics\include;$(PHYSX_DIR)\SDKs\Physics\include\cloth;$(PHYSX_DIR)\SDKs\Physics\include\fluids;$(PHYSX_DIR)\SDKs\Physics\include\softbody;$(PHYSX_DIR)\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>$(SolutionDir)bin\$(Configuration)\;$(ProjectDir)..\..\Lib\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
       <PreprocessorDefinitions>UserCustomization="custom.mogre.h";WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -94,7 +94,7 @@
       </DebugInformationFormat>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\PhysX\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PHYSX_DIR)\SDKs\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -104,6 +104,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Scene\RaycastObjects.h" />
     <ClInclude Include="Scene\SceneDesc.h" />
     <ClInclude Include="Scene\Scene.h" />
@@ -260,6 +261,9 @@
       <Project>{6f6a4809-e9c6-4e38-b66e-9791b7dda471}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="eyecm.PhysX.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

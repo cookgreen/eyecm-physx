@@ -74,7 +74,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\..\..\PhysX\PhysXLoader\include;$(ProjectDir)..\..\..\..\..\PhysX\Foundation\include;$(ProjectDir)..\..\..\..\..\PhysX\Physics\include;$(ProjectDir)..\..\..\..\..\PhysX\Physics\include\cloth;$(ProjectDir)..\..\..\..\..\PhysX\Physics\include\fluids;$(ProjectDir)..\..\..\..\..\PhysX\Physics\include\softbody;$(ProjectDir)..\..\..\..\..\PhysX\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(PHYSX_DIR)\SDKs\PhysXLoader\include;$(PHYSX_DIR)\SDKs\Foundation\include;$(PHYSX_DIR)\SDKs\Physics\include;$(PHYSX_DIR)\SDKs\Physics\include\cloth;$(PHYSX_DIR)\SDKs\Physics\include\fluids;$(PHYSX_DIR)\SDKs\Physics\include\softbody;$(PHYSX_DIR)\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>

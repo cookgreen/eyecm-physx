@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mogre.PhysX;
+using System;
 using Tao.FreeGlut;
 using Tao.OpenGl;
 
@@ -85,7 +86,7 @@ namespace eyecm.PhysX.Demos
             phscene = physics.CreateScene( new SceneDesc() );
             phscene.Timing.MaxTimestep = 1.0f / (3 * 24);
 
-            phscene.Gravity = new Vec3( 0, -9.81f, 0 );
+            phscene.Gravity = new Mogre.Vector3( 0, -9.81f, 0 );
             var defm = phscene.Materials[0];
             defm.Restitution = 0.5f;
             defm.DynamicFriction = defm.StaticFriction = 0.6f;

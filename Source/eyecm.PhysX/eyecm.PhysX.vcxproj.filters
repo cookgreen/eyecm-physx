@@ -311,6 +311,9 @@
     <ClInclude Include="Customization\custom.xna.h">
       <Filter>Customization\Other</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Assembly</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Scene\Scene.ActiveTransforms.cpp">
@@ -475,5 +478,8 @@
     <ClCompile Include="Stdafx.cpp">
       <Filter>Assembly</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="eyecm.PhysX.rc" />
   </ItemGroup>
 </Project>
